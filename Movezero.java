@@ -5,7 +5,7 @@ Note that you must do this in-place without making a copy of the array.
 solution
 Language used:JAVA
 *)
-      class Solution {
+      public class Movezero{
     public void moveZeroes(int[] nums) {
         int n=nums.length;
          int id=0;
@@ -19,7 +19,7 @@ Language used:JAVA
     }
   public static void main(String[] args){
     int[] nums={0,1,0,3,12};
-    moveZeros(nums);
+    moveZeroes(nums);
     System.out.print(Arrays.toString(nums))
   }
 
